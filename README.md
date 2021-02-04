@@ -1,5 +1,15 @@
 # koa2demo
 
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+node .\app.ts
+```
+
 ### 接口总览
 
 1、商家销量  /json/seller
