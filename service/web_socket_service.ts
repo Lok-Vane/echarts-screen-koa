@@ -28,6 +28,7 @@ module.exports.listen = () => {
     wss.on('connection', client => {
         // console.log(client);
         // console.log(client._protocol);
+        // client.send(JSON.stringify({ name: 'lok' }));
 
         console.log('客户端连接成功！');
 
